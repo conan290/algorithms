@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("This is the main file")
+	var total int
+
+	for i := 1; i <= 10; i++ {
+		total += i
+	}
+	fmt.Printf("The total is: %v", total)
 }
